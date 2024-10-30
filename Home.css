@@ -1,0 +1,130 @@
+/* Main container styling */
+.home {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Offer window styling */
+  .offer-window {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  /* Left and Right arrow button styling */
+  .left-arrow, .right-arrow {
+    font-size: 1.5em; /* Increase for better visibility */
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .left-arrow:hover, .right-arrow:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Offer content styling */
+  .offer-window h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .offer-image {
+    width: 400px; /* Make image bigger */
+    height: auto;
+    border-radius: 10px;
+    margin: 15px 0;
+  }
+  
+  .offer-window h4 {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .offer-window p {
+    font-size: 1.1em;
+    color: #666;
+  }
+  
+  /* Best Seller section styling */
+  .best-seller {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+
+
+  /* CSS for BEst Seller */
+  /* bestSeller.css */
+
+.title-best-seller {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.best-seller {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.item-cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.item-cart img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.item-cart h4 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 10px 0 5px;
+}
+
+.item-cart p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.discount {
+  color: #ff4c4c;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.item-cart:hover {
+  transform: scale(1.05);
+}
